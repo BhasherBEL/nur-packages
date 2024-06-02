@@ -18,4 +18,5 @@
 
   aw-awatcher = pkgs.callPackage ./pkgs/aw-awatcher/package.nix { };
   hyprshot = pkgs.callPackage ./pkgs/hyprshot/package.nix { };
+  rofi-wayland = pkgs.callPackage ./pkgs/rofi/wayland.nix { };
 }
