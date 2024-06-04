@@ -1,4 +1,8 @@
-{ lib, ... }@args:
+{
+  fetchurl,
+  lib,
+  stdenv,
+}@args:
 
 let
 
