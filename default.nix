@@ -18,4 +18,5 @@
 
   aw-awatcher = pkgs.callPackage ./pkgs/aw-awatcher/package.nix { };
   rofi-unwrapped = pkgs.callPackage ./pkgs/rofi { };
+  rofi-wayland-unwrapped = pkgs.callPackage ./pkgs/rofi/wayland.nix { };
 }
